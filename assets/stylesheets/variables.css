@@ -11,7 +11,7 @@
   --accent-color-light: #d6fee9;
 
   /* light theme */
-  --main-light: #ccc;
+  --main-light: #fff;
   --headers-color-dark: #071c31;
   --text-color-dark: #071c31;
   --accent-color-dark: #ffbdcb;
@@ -21,4 +21,7 @@
   --font-color: var(--text-color-dark);
   --headers-color: var(--headers-color-dark);
   --accent-color: var(--accent-color-dark);
+
+  --main-font: Roboto, sans-serif;
+  --accent-font: 'Roboto mono', sans-serif;
 }
