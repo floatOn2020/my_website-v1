@@ -53,10 +53,10 @@
 
           <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
             <ul class="nav navbar-nav navbar-right space-right">
-              <li><a href="./index.html" title="" class="active">Home</a></li>
-              <li><a href="./about.html" title=""> About</a></li>
-              <li><a href="#" title=""> # </a></li>
-              <li><a href="./contact.html" title="">Contact</a></li>
+              <li><a href="#projects" title="" class="active">PROJECTS</a></li>
+              <li><a href="#about" title=""> ABOUT</a></li>
+              <li><a href="#resume" title=""> RESUME </a></li>
+              <li><a href="./contact.html" title="">CONTACT</a></li>
               <li><a href="#" title="">#</a></li>
             </ul>
           </div>
@@ -75,7 +75,7 @@
         <!-- stats.js lib -->
         <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
       </div>
-
+      <!-- Banner -->
       <div class="white-text-container background-image-container">
         <div class="opacity"></div>
         <div class="container">
@@ -94,30 +94,37 @@
         </div>
       </div>
     </header>
-    <div class="section-container border-section-container">
+
+    <div id="projects" class="section-container border-section-container">
       <div class="container">
         <div class="row">
           <div class="col-md-12 section-container-spacer">
-            <div class="text-center">
-              <h2>My work</h2>
-              <p>As a fullstack developer I build Websites and Webapps.</p>
+            <div class="test-div">
+              <h2 class="section-header">SELECTED PROJECTS</h2>
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="fa-container">
-              <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
-            </div>
+          <div class="col-md-4 project container">
             <div class="text-center">
-              <h3>Consectetur</h3>
-            </div>
-            <div>
-              <p>
-                Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit
-                amet consectetur adipiscing. Porta non pulvinar neque laoreet.
-                Viverra ipsum nunc aliquet bibendum. Iaculis urna id volutpat
-                lacus. Turpis egestas pretium aenean pharetra magna ac.
-              </p>
+              <div class="card row">
+                <div
+                  class="project__stack col-3"
+                  style="background: rgb(176, 192, 189);"
+                ></div>
+                <div class="project__content col-9" style="background: blue;">
+                  <h3>Consectetur</h3>
+                  <div class="project__image"></div>
+                  <div class="project__description">
+                    <p>
+                      Auctor augue mauris augue neque. Posuere lorem ipsum dolor
+                      sit amet consectetur adipiscing. Porta non pulvinar neque
+                      laoreet. Viverra ipsum nunc aliquet bibendum. Iaculis urna
+                      id volutpat lacus. Turpis egestas pretium aenean pharetra
+                      magna ac.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
@@ -157,13 +164,14 @@
     </div>
 
     <div
+      id="about"
       class="section-container background-color-container white-text-container"
     >
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
             <div class="text-center">
-              <h2>Vivamus laoreet</h2>
+              <h2>About me</h2>
               <p>
                 Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit
                 amet consectetur adipiscing. Porta non pulvinar neque laoreet.
@@ -180,64 +188,102 @@
       </div>
     </div>
 
-    <div class="section-container">
+    <div id="resume" class="section-container">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
-            <img
-              class="img-responsive"
-              src="./assets/images/img-06.png"
-              alt=""
-            />
+          <div class="col-xs-7">
+            <div class="text-center">
+              <h2>Vita</h2>
+              <p>
+                Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit
+                amet consectetur adipiscing. Porta non pulvinar neque laoreet.
+                Viverra ipsum nunc aliquet bibendum. Iaculis urna id volutpat
+                lacus. Turpis egestas pretium aenean pharetra magna ac. Id
+                cursus metus aliquam eleifend mi.
+              </p>
+              <a href="./download.html" title="" class="btn btn-primary btn-lg"
+                >Download</a
+              >
+            </div>
           </div>
 
           <div class="col-md-5">
-            <ul class="features">
-              <li>
-                <h3>Dui augue</h3>
-                <p>
-                  Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit
-                  amet consectetur adipiscing.
-                </p>
-              </li>
-              <li>
-                <h3>Malesuada</h3>
-                <p>
-                  Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit
-                  amet consectetur adipiscing.
-                </p>
-              </li>
-              <li>
-                <h3>Bibendum</h3>
-                <p>
-                  Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit
-                  amet consectetur adipiscing.
-                </p>
-              </li>
-            </ul>
+            <div>texting sth.</div>
           </div>
+        </div>
+      </div>
+    </div>
 
+    <div id="contact" class="section-container">
+      <div class="section-container no-padding">
+        <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              <img
-                class="img-responsive page-base-image"
-                src="./assets/images/logo-01.png"
-                alt=""
-              />
+            <div class="col-xs-12">
+              <div id="map"></div>
             </div>
-            <div class="col-md-4">
-              <img
-                class="img-responsive page-base-image"
-                src="./assets/images/logo-02.png"
-                alt=""
-              />
-            </div>
-            <div class="col-md-4">
-              <img
-                class="img-responsive page-base-image"
-                src="./assets/images/logo-03.png"
-                alt=""
-              />
+            <div class="col-xs-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <form action="" class="reveal-content contact-form">
+                    <div class="form-group">
+                      <input
+                        type="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Full name"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Subject"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        rows="3"
+                        placeholder="Enter your message"
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">
+                      Send
+                    </button>
+                  </form>
+                </div>
+
+                <div class="col-md-5 col-md-offset-1">
+                  <h3>Head Office</h3>
+
+                  <div>
+                    <p>42 rue Rouelle <br />75015 Paris FRANCE</p>
+                  </div>
+                  <div>
+                    <p>contact@mybusiness.com<br />+331 45 31 64 32</p>
+                  </div>
+
+                  <div>
+                    <h3>Employment</h3>
+                  </div>
+                  <div>
+                    <p>
+                      To apply for a job with our team, please feel free to send
+                      us your Linkedin profile link ou CV to :
+                      employment@mybusiness.com
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -249,38 +295,30 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <h4>About us</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                sit amet consectetur dolor
-              </p>
+              <a href="#">Imprint</a>
             </div>
 
             <div class="col-md-4">
-              <h4>Do you like ? Share this !</h4>
-              <p>
+              <a
+                target="_blank"
+                href="https://github.com/floatOn2020"
+                class="social-round-icon white-round-icon gh-icon"
+                title=""
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a
                 <a
-                  href="https://facebook.com/"
-                  class="social-round-icon white-round-icon fa-icon"
-                  title=""
-                >
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a
-                  href="https://twitter.com/"
-                  class="social-round-icon white-round-icon fa-icon"
-                  title=""
-                >
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/"
-                  class="social-round-icon white-round-icon fa-icon"
-                  title=""
-                >
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </p>
+                target="_blank"
+                href="https://www.linkedin.com/in/bianca-herbst"
+                class="social-round-icon white-round-icon fa-icon"
+                title=""
+              >
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="col-md-4">
               <p>
                 <small
                   >© Untitled | Website created with
@@ -297,39 +335,6 @@
                   ></small
                 >
               </p>
-              Icons erstellt von
-              <a
-                target="_blank"
-                href="https://smashicons.com/"
-                title="Smashicons"
-                >Smashicons</a
-              >
-              from
-              <a
-                target="_blank"
-                href="https://www.flaticon.com/de/"
-                title="Flaticon"
-              >
-                www.flaticon.com</a
-              >
-            </div>
-
-            <div class="col-md-4">
-              <h4>Subscribe to newsletter</h4>
-
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="text" class="form-control footer-input-text" />
-                  <div class="input-group-btn">
-                    <button
-                      type="button"
-                      class="btn btn-primary btn-newsletter"
-                    >
-                      OK
-                    </button>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

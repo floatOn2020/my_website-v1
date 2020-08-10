@@ -1,12 +1,24 @@
 :root {
+  /* general variables */
   --page-spacer: 2rem;
   --dark-jungle: #092327;
-  --main-dark: #071c31;
-  --light-background: #;
-  --headers-color: #fff;
-  --text-color: #ccc;
-}
+  --link-color: #fa8334;
 
-/* #div1 {
-  background-color: var(--main-bg-color);
-} */
+  /* dark theme */
+  --main-dark: #071c31;
+  --headers-color-light: #fff;
+  --text-color-light: #ccc;
+  --accent-color-light: #d6fee9;
+
+  /* light theme */
+  --main-light: #ccc;
+  --headers-color-dark: #071c31;
+  --text-color-dark: #071c31;
+  --accent-color-dark: #ffbdcb;
+
+  /* set theme */
+  --main-color: var(--main-light);
+  --font-color: var(--text-color-dark);
+  --headers-color: var(--headers-color-dark);
+  --accent-color: var(--accent-color-dark);
+}
