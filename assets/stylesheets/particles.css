@@ -4,9 +4,11 @@ body {
   /* font: normal 75% Arial, Helvetica, sans-serif; */
 }
 canvas {
+
   display: block;
-  vertical-align: bottom;
-} /* ---- particles.js container ---- */
+  vertical-align: bottom !important;
+}
+/*---- particles.js container ---- */
 #particles-js {
   position: absolute;
   width: 100%;

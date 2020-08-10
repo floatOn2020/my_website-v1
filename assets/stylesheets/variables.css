@@ -2,7 +2,10 @@
   /* general variables */
   --page-spacer: 2rem;
   --dark-jungle: #092327;
-  --link-color: #fa8334;
+  --highlight-color-main: #fa8334;
+  --highlight-color-other: #8b62ff;
+  --btn-color-1: var(--highlight-color-main);
+  --btn-color-2: var(--highlight-color-other);
 
   /* dark theme */
   --main-dark: #071c31;
@@ -15,6 +18,8 @@
   --headers-color-dark: #071c31;
   --text-color-dark: #071c31;
   --accent-color-dark: #ffbdcb;
+
+  --banner-font-color: var(--main-light) !important;
 
   /* set theme */
   --main-color: var(--main-light);

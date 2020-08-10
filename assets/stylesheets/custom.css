@@ -4,10 +4,10 @@ body {
   color: var(--font-color) !important;
 }
 a {
-  color: var(--font-color) !important;
+  color: var(--main-dark);
 }
 a:hover {
-  color: var(--link-color) !important;
+  color: var(--highlight-color-main) !important;
 }
 h1,
 h2,
@@ -16,7 +16,7 @@ h4,
 h5,
 h6,
 i {
-  color: var(--accent-color) !important;
+  color: var(--headers-color);
 }
 p {
   font-size: 1.5rem;
@@ -24,10 +24,10 @@ p {
 canvas {
   display: none;
 }
-
 #my-header {
   position: relative !important;
   overflow: hidden !important;
+  color: var(--banner-font-color)
 }
 /* navbar*/
 .navbar {
